@@ -1,0 +1,11 @@
+
+
+   npm install express body-parser  -D
+  
+   npm install 
+
+   npm install compression -D
+
+   npm install -g express-generator@4 --save --dev
+
+   npm install -g express-generator --save --dev

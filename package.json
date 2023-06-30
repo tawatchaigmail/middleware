@@ -1,0 +1,33 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-passer": "^1.0.0",
+    "compression": "^1.7.4",
+    "connect-session-knex": "^3.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.41.0",
+    "express": "^4.18.2",
+    "express-oracle-session": "file:./express-oracle-session",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^2.4.2",
+    "node-gyp": "^9.3.1",
+    "nodemon": "^2.0.22",
+    "oracledb": "^5.5.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "tslint": "^6.1.3"
+  }
+}
