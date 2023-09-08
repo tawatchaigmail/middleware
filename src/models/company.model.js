@@ -20,7 +20,7 @@ knex.select().from("COMPANIES").asCallback(function(err, rows){
                                             try {
                                                  console.log('function read');
                                                  var company = await knex('COMPANIES').where(param).select();
-                                                 // console.log(company);
+                                                 //console.log(company);
                                                  // return JSON.stringify(company);
                                                  return company;
                                                  } catch (e) {
@@ -54,7 +54,7 @@ knex.select().from("COMPANIES").asCallback(function(err, rows){
 
                             create : async (param) => {
                                              try {
-                                                 console.log('function create');
+                                                 console.log('function create '+param);
                                                  const company = await knex("COMPANIES").insert(param);
                                                  return company;
                                                  } catch (e) {

@@ -1,15 +1,15 @@
-const companyModel = require('../models/company.model');
+const securityUsersModel = require('../models/security.users.model');
 
- module.exports = companyController = {
+ module.exports = securityUserController = {
 
   getAll : async (req, res, next) => {
     try {
-      const companies = await companyModel.getAll();
+      const jsonData = await securityUsersModel.getAll();
 
-     if (companies) {
-   //   res.status(200).json({data : companies})  ;
-        res.json(companies);
-   //   res.send(companies);
+     if (jsonData) {
+   //   res.status(200).json({data : jsonData})  ;
+        res.json(jsonData);
+   //   res.send(jsonData);
 
       }
       else{
@@ -25,12 +25,12 @@ const companyModel = require('../models/company.model');
  
   getById : async (req, res, next) => {
     try {
-      const companie = await companyModel.getById(req.params.id);
-      if (companie) {
-   //   res.json(companie);
-   //   res.send(companie);
+      const jsonData = await securityUsersModel.getById(req.params);
+      if (jsonData) {
+   //   res.json(jsonData);
+   //   res.send(jsonData);
 
-       res.status(200).json({ data : companie} )  
+       res.status(200).json({ data : jsonData} )  
       }
       else{
        res.status(300).json({message: "Record not found"});
@@ -45,13 +45,10 @@ const companyModel = require('../models/company.model');
 
   create : async (req, res, next) => {
     try {
-      console.log();
-      console.log(req.body);
-      console.log();
-      const companie = await companyModel.create(req.body);
-     if (companie) {
-       // res.status(200).json({updated: companie})
-       res.json(companie);   
+      const jsonData = await securityUsersModel.create(req.body);
+     if (jsonData) {
+       // res.status(200).json({updated: jsonData})
+       res.json(jsonData);   
      } else {
        res.status(404).json({message: " Cant 't Creaete Record "})
      }
@@ -63,12 +60,12 @@ const companyModel = require('../models/company.model');
   },
 
   update : async (req, res, next) => {
-    try {      
-      const companie = await companyModel.update(req.params.id, req.body);
+    try {
+      const jsonData = await securityUsersModel.update(req.params, req.body);
 
-      if (companie) {
-      //  res.status(200).json({updated: companie})
-        res.json(companie);   
+      if (jsonData) {
+      //  res.status(200).json({updated: jsonData})
+        res.json(jsonData);   
       } else {
         res.status(404).json({message: "Record not found"})
       }      
@@ -79,11 +76,11 @@ const companyModel = require('../models/company.model');
   },
     delete : async (req, res, next) => {
     try {
-      console.log(' req.params.id '+req.params.id);
-      const companie = await companyModel.delete(req.params.id);
-      if (companie) {
-     //  res.status(200).json({delete: companie})
-       res.json(companie);   
+      console.log(' req.params.id '+req.params);
+      const jsonData = await securityUsersModel.delete(req.params);
+      if (jsonData) {
+     //  res.status(200).json({delete: jsonData})
+       res.json(jsonData);   
       } else {
         res.status(404).json({message: "Record not found"});
       }        

@@ -12,6 +12,6 @@ router.get('/', function(req, res, next) {
 
 router.post('/login',autController.login)
 router.get('/logout',autController.logout)
-router.post('/refresh',autController.jwtRefreshTokenValidate,autController.refresh)
+router.post('/refresh',autController.jwtRefreshTokenValidate, autController.refresh)
 
 module.exports = router; 

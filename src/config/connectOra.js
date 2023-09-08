@@ -29,3 +29,5 @@ module.exports = conectOraDb = { oraConnect : async () => {
 
 // exports.conectOraDb =  connection;
 //exports connection;
+
+

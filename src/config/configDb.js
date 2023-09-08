@@ -12,18 +12,18 @@ module.exports = { development : { oracle : {
                                    sessionsOption : {
         	                              user: 'pintf',
 	                                      password: 'pintf',
-                                     	      connectString: '192.168.100.77/pdbplan'
-                                            /*
+                                     	      connectString: '192.168.100.77/pdbplan' ,
+                                            
              	                              schema: {
-		                                      tableName: 'custom_sessions_table_name',
+		                                      tableName: 'ora_sessions',
 		                                      columnNames: {
-			                                           session_id: 'custom_session_id',
-			                                           expires: 'custom_expires_column_name',
-			                                           data: 'custom_data_column_name'
+			                                           session_id: 'session_id',
+			                                           expires: 'expires',
+			                                           data: 'attributes'
 		                                      }
         
 	                                      }
-                                           */
+                                           
    
 
                                   },

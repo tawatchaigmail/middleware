@@ -1,28 +1,33 @@
-const users = require('../models/users.model')
+//const users = require('../models/users.model');
+const human = require('../models/humans.model');
 const jwt = require("jsonwebtoken")
 const fnjwt = require('./jwtcreete');
 module.exports = autController = { 
    login : (req, res) => { 
-                            const name = req.body.username ; 
-                            const user = users.findIndex((e) => e.name === name);                                  
-                            if (!name || user < 0) {
-                                 console.log('invalid user name : '+name);
+                            let param = {
+                                         "humanid" : req.body.username ,
+                                         "compid" : req.body.company
+                            };  
+                            const user = human.getById(param);
+                          //  const user = users.findIndex((e) => e.name === name);                                  
+                            if (!user) {
+                                 console.log('invalid user name : '+user);
                                  res.send(' invalid user name')    // Bad credentials     
                                 // return res.send(400) ;
                             
                             } else {      
-                            
-                            session = req.session ;
-                            req.session.authenticated = true; 
-                            req.session.username = req.body.username ;                           
 
+                            session = req.session;                                                        
+                            req.session.authenticated = true; 
+                            req.session.username = param.humanid ;                           
+                            req.session.company = param.compid ;
+                            
                             const access_token = fnjwt.jwtGenerate(session)
                             const refresh_token = fnjwt.jwtRefreshTokenGenerate(session)
                           //  console.log('access_token : '+access_token);
                           //  console.log('refresh_token :'+refresh_token);   
-                          //  console.log(req.session.username);
 
-                            users[user].refresh = refresh_token
+                            user.refresh = refresh_token
 
                            // res.send("<a href=\ /auth/logout > click to log out </a> ");
                             res.json({
@@ -46,19 +51,13 @@ module.exports = autController = {
    },
   refresh : (req, res) =>{
                           console.log('refresh');
-                          const user = users.find(
-                                           //     (e) => e.id === req.user.id && e.name === req.user.name
-                                               (e) => e.name === req.user.name
-                          )
 
-                          console.log('req.user.name '+req.user.name);
-                          console.log('user '+'name '+ user['name']+' id '+ user['id']+', refresh '+ user['refresh']);
-                          console.log(users[user['id']]);
-                          console.log('--');
-                          const userIndex = users.findIndex((e) => e.refresh === req.user.token)
+                          const user = req.user;
+                          console.log('req.user '+req.user);
+                         // console.log('user '+'name '+ user['name']+' id '+ user['id']+', refresh '+ user['refresh']);
+                         // const userIndex = users.findIndex((e) => e.refresh === req.user.token)
 
-                       //   if (!user || userIndex < 0) return res.sendStatus(401)
-                          if (!user < 0) return res.sendStatus(401)
+                          if (!user) return res.sendStatus(401)
 
                           const access_token = fnjwt.jwtGenerate(user)
                           const refresh_token = fnjwt.jwtRefreshTokenGenerate(user)
@@ -73,6 +72,11 @@ module.exports = autController = {
 
  jwtValidate : (req, res, next) => {
                                    
+                               if (req.session.authenticated) {
+                                   //   res.send("<a href=\ /auth/logout > click to log out </a> ");
+                                      next() 
+                               } else {     
+   
                                try {
                                    console.log('jwtvalidate');
                                    if (!req.headers["authorization"]) return res.sendStatus(401)
@@ -89,10 +93,12 @@ module.exports = autController = {
                                         console.log(error)
                                         return res.sendStatus(403)
                                  }
+                              } // if authenticated
   },
  auth : (req, res, next) => {
                               console.log(req.headers.authorization); 
-                              if(req.headers.authorization === "")
+                             // if(req.headers.authorization === "")
+                              if (req.session.authenticated)
                                   next(); 
                               else
                           //  res.send(Unauthorized)
@@ -104,15 +110,15 @@ jwtRefreshTokenValidate : (req, res, next) => {
                                                 console.log('jwtRefresh');
                                                 if (!req.headers["authorization"]) return res.sendStatus(401)
                                                   const token = req.headers["authorization"].replace("Bearer ", "")
-                                                  console.log('token '+token);
+                                                  console.log('verify token '+token);
                                                   jwt.verify(token, process.env.REFRESH_TOKEN_SECRET, (err, decoded) => {
-                                                                                                    
                                                                                                     if (err) throw new Error(error)
                                                                                                      console.log('decoded :'+decoded);
-                                                                                                     req.user = decoded
-                                                                                                     req.user.token = token
-                                                                                                     delete req.user.exp
+                                                                                                     req.user = decoded                                                                                                     
+                                                                                                     req.user.token = token                                                                                                     
+                                                                                                     delete req.user.exp                                                                                                     
                                                                                                      delete req.user.iat
+                                                                                                     
                                                    })
                                                  next()
                                                } catch (error) {

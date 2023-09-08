@@ -11,12 +11,12 @@ route.get('/', (req,res,next) => {
 
 route.get('/readall', humansController.getAll )
 
-route.get('/read/comp/:compid/human/:humanid', humansController.getById )
+route.get('/read/comp/:compid/human/:id', humansController.getById )
 
 route.post('/create', humansController.create);
 
-route.put('/update/comp/:compid/human/:humanid', humansController.update);
+route.put('/update/comp/:compid/human/:id', humansController.update);
 
-route.delete('/delete/comp/:compid/human/:humanid', humansController.delete);
+route.delete('/delete/comp/:compid/human/:id', humansController.delete);
 
 module.exports = route ;

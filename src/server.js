@@ -79,7 +79,7 @@ app.use( (req, res, next) => {
 
    res.setHeader('Access-Control-Allow-Origin', '*'); // domain 
    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With,X-Custom-Header');
    res.setHeader('Access-Control-Allow-Credentials',true);
 
    req.session;
@@ -98,7 +98,12 @@ app.use( (req, res, next) => {
 
 /* GET home page. */
 
-app.get('/', autController.jwtValidate,(req, res,next) => {
+app.use('/auth',routeAut);
+
+//app.use('/', autController.jwtValidate) ;
+
+/*
+app.use('/', autController.jwtValidate,(req, res,next) => {
  
    console.log('get home /'+req.session.authenticated);
    if (req.session.authenticated) {
@@ -108,9 +113,7 @@ app.get('/', autController.jwtValidate,(req, res,next) => {
      res.sendFile('views/index.html',{root : __dirname});
    }
 })
-
-app.use('/auth',routeAut);
-
+*/
 app.use('/api',route)
 
 app.listen(port, () => {
