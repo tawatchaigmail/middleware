@@ -86,9 +86,12 @@ app.use( (req, res, next) => {
    console.log('use');
    console.log('id :'+req.session.id);
    console.log('authenticated :'+req.session.authenticated);
+
    if (req.session.authenticated) { 
+      console.log(' authenticated');
       next();  
    } else {
+      console.log(' unauthenticated');
       next();
      // res.sendFile('views/index.html',{root : __dirname});      
    }

@@ -24,8 +24,8 @@ module.exports = autController = {
                             
                             const access_token = fnjwt.jwtGenerate(session)
                             const refresh_token = fnjwt.jwtRefreshTokenGenerate(session)
-                          //  console.log('access_token : '+access_token);
-                          //  console.log('refresh_token :'+refresh_token);   
+                            console.log('access_token : '+access_token);
+                            console.log('refresh_token :'+refresh_token);   
 
                             user.refresh = refresh_token
 

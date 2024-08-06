@@ -1,0 +1,490 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 320,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "NvGlCwAAQBAJ",
+      "etag": "PPqxVx0NC/k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NvGlCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Oliver Sacks",
+        "subtitle": "The Last Interview and Other Conversations",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Melville House",
+        "publishedDate": "2016-11-15",
+        "description": "An extraordinary collection of interviews with the beloved doctor and author, whose research and books inspired generations of readers. Oliver Sacks—called \"the poet laureate of medicine\" by the New York Times—illuminated the mysteries of the brain for a wide audience in a series of richly acclaimed books, including Awakenings and The Man Who Mistook His Wife for a Hat, and numerous The New Yorker articles. In this collection of interviews, Sacks is at his most candid and disarming, rich with insights about his life and work. Any reader of Oliver Sacks will find in this book an entirely new way of looking at a brilliant writer.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781612195780"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1612195784"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 220,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.3.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=NvGlCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NvGlCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.th/books?id=NvGlCwAAQBAJ&printsec=frontcover&dq=oliver+sacks&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=NvGlCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NvGlCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "TH",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 572.95,
+          "currencyCode": "THB"
+        },
+        "retailPrice": {
+          "amount": 389.61,
+          "currencyCode": "THB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=NvGlCwAAQBAJ&rdid=book-NvGlCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 572950000,
+              "currencyCode": "THB"
+            },
+            "retailPrice": {
+              "amountInMicros": 389610000,
+              "currencyCode": "THB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "TH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.th/books/download/Oliver_Sacks-sample-epub.acsm?id=NvGlCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NvGlCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this collection of interviews, Sacks is at his most candid and disarming, rich with insights about his life and work. Any reader of Sacks will find in this book an entirely new way of looking at a brilliant writer."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "p_8VBAAAQBAJ",
+      "etag": "isfzExuDrpw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/p_8VBAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Man Who Mistook His Wife for a Hat",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Pan Macmillan",
+        "publishedDate": "2014-12-15",
+        "description": "Celebrating Fifty Years of Picador Books If a man has lost a leg or an eye, he knows he has lost a leg or an eye; but if he has lost a self – himself – he cannot know it, because he is no longer there to know it. In this extraordinary book, Dr. Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder. Here are people who can no longer recognize everyday objects or those they love; who are stricken with violent tics or shout involuntary obscenities, and yet are gifted with unusually acute artistic or mathematical talents. If sometimes beyond our surface comprehension, these brilliant tales illuminate what it means to be human. A provocative exploration of the mysteries of the human mind, The Man Who Mistook His Wife for a Hat is a million-copy bestseller by the twentieth century's greatest neurologist. Part of the Picador Collection, a series showcasing the best of modern literature.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781447275411"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1447275411"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 269,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Collections"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.17.17.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=p_8VBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=p_8VBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.th/books?id=p_8VBAAAQBAJ&printsec=frontcover&dq=oliver+sacks&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=p_8VBAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p_8VBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "TH",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 481.24,
+          "currencyCode": "THB"
+        },
+        "retailPrice": {
+          "amount": 333.87,
+          "currencyCode": "THB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=p_8VBAAAQBAJ&rdid=book-p_8VBAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 481240000,
+              "currencyCode": "THB"
+            },
+            "retailPrice": {
+              "amountInMicros": 333870000,
+              "currencyCode": "THB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "TH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.th/books/download/The_Man_Who_Mistook_His_Wife_for_a_Hat-sample-epub.acsm?id=p_8VBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=p_8VBAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this extraordinary book, Dr. Oliver Sacks recounts the stories of patients struggling to adapt to often bizarre worlds of neurological disorder."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "CuwmEAAAQBAJ",
+      "etag": "opobVWwFzz8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CuwmEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Man Who Mistook His Wife for a Hat",
+        "subtitle": "And Other Clinical Tales",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Vintage",
+        "publishedDate": "2021-09-14",
+        "description": "In his most extraordinary book, the bestselling author of Awakenings and \"poet laureate of medicine” (The New York Times) recounts the case histories of patients inhabiting the compelling world of neurological disorders, from those who are no longer able to recognize common objects to those who gain extraordinary new skills. Featuring a new preface, Oliver Sacks’s The Man Who Mistook His Wife for a Hat tells the stories of individuals afflicted with perceptual and intellectual disorders: patients who have lost their memories and with them the greater part of their pasts; who are no longer able to recognize people and common objects; whose limbs seem alien to them; who lack some skills yet are gifted with uncanny artistic or mathematical talents. In Dr. Sacks’s splendid and sympathetic telling, his patients are deeply human and his tales are studies of struggles against incredible adversity. A great healer, Sacks never loses sight of medicine’s ultimate responsibility: “the suffering, afflicted, fighting human subject.”",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780593466681"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0593466683"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 280,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CuwmEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CuwmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.th/books?id=CuwmEAAAQBAJ&printsec=frontcover&dq=oliver+sacks&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=CuwmEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CuwmEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "TH",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 585.85,
+          "currencyCode": "THB"
+        },
+        "retailPrice": {
+          "amount": 398.38,
+          "currencyCode": "THB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=CuwmEAAAQBAJ&rdid=book-CuwmEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 585850000,
+              "currencyCode": "THB"
+            },
+            "retailPrice": {
+              "amountInMicros": 398380000,
+              "currencyCode": "THB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "TH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.th/books/download/The_Man_Who_Mistook_His_Wife_for_a_Hat-sample-epub.acsm?id=CuwmEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CuwmEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "His case studies of broken minds offer brilliant insight into the mysteries of consciousness.”—The Guardian Featuring a new preface, Oliver Sacks’s The Man Who Mistook His Wife for a Hat tells the stories of individuals afflicted with ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "e7VuDwAAQBAJ",
+      "etag": "301iMoIf16s",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/e7VuDwAAQBAJ",
+      "volumeInfo": {
+        "title": "And How Are You, Dr. Sacks?",
+        "subtitle": "A Biographical Memoir of Oliver Sacks",
+        "authors": [
+          "Lawrence Weschler"
+        ],
+        "publisher": "Farrar, Straus and Giroux",
+        "publishedDate": "2019-08-13",
+        "description": "The untold story of Dr. Oliver Sacks, his own most singular patient \"[An] engrossing biographical memoir. This is Sacks at full blast: on endless ward rounds, observing his post-encephalitic patients . . . exulting over horseshoe crabs and chunks of Iceland spar.\" —Barbara Kiser, Nature The author Lawrence Weschler began spending time with Oliver Sacks in the early 1980s, when he set out to profile the neurologist for his own new employer, The New Yorker. Almost a decade earlier, Dr. Sacks had published his masterpiece Awakenings—the account of his long-dormant patients’ miraculous but troubling return to life in a Bronx hospital ward. But the book had hardly been an immediate success, and the rumpled clinician was still largely unknown. Over the ensuing four years, the two men worked closely together until, for wracking personal reasons, Sacks asked Weschler to abandon the profile, a request to which Weschler acceded. The two remained close friends, however, across the next thirty years and then, just as Sacks was dying, he urged Weschler to take up the project once again. This book is the result of that entreaty. Weschler sets Sacks’s brilliant table talk and extravagant personality in vivid relief, casting himself as a beanpole Sancho to Sacks’s capacious Quixote. We see Sacks rowing and ranting and caring deeply; composing the essays that would form The Man Who Mistook His Wife for a Hat; recalling his turbulent drug-fueled younger days; helping his patients and exhausting his friends; and waging intellectual war against a medical and scientific establishment that failed to address his greatest concern: the spontaneous specificity of the individual human soul. And all the while he is pouring out a stream of glorious, ribald, hilarious, and often profound conversation that establishes him as one of the great talkers of the age. Here is the definitive portrait of Sacks as our preeminent romantic scientist, a self-described “clinical ontologist” whose entire practice revolved around the single fundamental question he effectively asked each of his patients: How are you? Which is to say, How do you be? A question which Weschler, with this book, turns back on the good doctor himself.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780374714949"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0374714940"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 400,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.6.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=e7VuDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=e7VuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.th/books?id=e7VuDwAAQBAJ&printsec=frontcover&dq=oliver+sacks&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=e7VuDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=e7VuDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "TH",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 434.9,
+          "currencyCode": "THB"
+        },
+        "retailPrice": {
+          "amount": 295.73,
+          "currencyCode": "THB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=e7VuDwAAQBAJ&rdid=book-e7VuDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 434900000,
+              "currencyCode": "THB"
+            },
+            "retailPrice": {
+              "amountInMicros": 295730000,
+              "currencyCode": "THB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "TH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.th/books/download/And_How_Are_You_Dr_Sacks-sample-epub.acsm?id=e7VuDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=e7VuDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is Sacks at full blast: on endless ward rounds, observing his post-encephalitic patients . . . exulting over horseshoe crabs and chunks of Iceland spar.&quot; —Barbara Kiser, Nature The author Lawrence Weschler began spending time with ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mW7CBgAAQBAJ",
+      "etag": "f/xAlLqXuyk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mW7CBgAAQBAJ",
+      "volumeInfo": {
+        "title": "On the Move",
+        "subtitle": "A Life",
+        "authors": [
+          "Oliver Sacks"
+        ],
+        "publisher": "Pan Macmillan",
+        "publishedDate": "2015-05-01",
+        "description": "When Oliver Sacks was twelve years old, a perceptive schoolmaster wrote in his report: 'Sacks will go far, if he does not go too far'. It is now abundantly clear that Sacks has never stopped going . . . From its opening pages on his youthful obsession with motorcycles and speed, On the Move is infused with his restless energy. As he recounts his experiences as a young neurologist in the early 1960s, first in California and then in New York, where he discovered a long-forgotten illness in the back wards of a chronic hospital, as well as with a group of patients who would define his life, it becomes clear that Sacks's earnest desire for engagement has occasioned unexpected encounters and travels – sending him through bars and alleys, over oceans, and across continents. With unbridled honesty and humour, Sacks shows us that the same energy that drives his physical passions –bodybuilding, weightlifting, and swimming – also drives his cerebral passions. He writes about his love affairs, both romantic and intellectual, his guilt over leaving his family to come to America, his bond with his schizophrenic brother, and the writers and scientists – Thom Gunn, A. R. Luria, W. H. Auden, Gerald M. Edelman, Francis Crick – who influenced him. On the Move is the story of a brilliantly unconventional physician and writer – and of the man who has illuminated the many ways that the brain makes us human.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781447265450"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1447265459"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 446,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.18.15.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mW7CBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mW7CBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.th/books?id=mW7CBgAAQBAJ&printsec=frontcover&dq=oliver+sacks&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=mW7CBgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mW7CBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "TH",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 481.24,
+          "currencyCode": "THB"
+        },
+        "retailPrice": {
+          "amount": 327.24,
+          "currencyCode": "THB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=mW7CBgAAQBAJ&rdid=book-mW7CBgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 481240000,
+              "currencyCode": "THB"
+            },
+            "retailPrice": {
+              "amountInMicros": 327240000,
+              "currencyCode": "THB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "TH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.th/books/download/On_the_Move-sample-epub.acsm?id=mW7CBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mW7CBgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "On the Move is the story of a brilliantly unconventional physician and writer – and of the man who has illuminated the many ways that the brain makes us human."
+      }
+    }
+  ]
+}

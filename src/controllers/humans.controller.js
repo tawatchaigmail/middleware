@@ -74,7 +74,8 @@ const humansModel = require('../models/humans.model');
       next(err);
     }
   },
-    delete : async (req, res, next) => {
+
+  delete : async (req, res, next) => {
     try {
       console.log(' req.params.id '+req.params);
       const jsonData = await humansModel.delete(req.params);
